@@ -1,4 +1,23 @@
 {
   "name": "react-native-wasm-demo",
-  "slug": "react-native-wasm-demo"
+  "slug": "react-native-wasm-demo",
+  "extra": {
+    "eas": {
+      "projectId": "cd57e7cb-5716-4382-a4b0-407e8a74dc06"
+    }
+  },
+  "expo": {
+    "ios": {
+      "bundleIdentifier": "com.vyk2rr.reactnativewasmdemo",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.vyk2rr.reactnativewasmdemo"
+    },
+    "plugins": [
+      "react-native-webassembly"
+    ]
+  }
 }
